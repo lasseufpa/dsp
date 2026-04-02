@@ -2,7 +2,7 @@
 
 Repositório para o curso de Processamento Digital de Sinais [Programa de Pós-Graduação em Engenharia Elétrica (PPGEE)](https://www.ppgee.propesp.ufpa.br) da [Universidade Federal do Pará](http://ufpa.br).
 
-## 📌 Informações Gerais
+## 📋: Informações Gerais
 
 - **Período:** 2026.2  
 - **Plataforma de comunicação:** Google Classroom  
