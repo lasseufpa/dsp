@@ -57,7 +57,7 @@ Tools, and Techniques to Build Intelligent Systems, 2nd Edition, 2019.
 
 | **N** | **Tópico** | **Materiais** |
 |---|---|---|
-| 1 | **Introdução a PDS** | 📄 [Apresentação](https://github.com/lasseufpa/dsp2026/blob/main/slides/slide_1A.pdf) / 💻 [Notebook de exercício] / 💻 [Notebook de suporte]| 
+| 1 | **Introdução a PDS** | 📄 [Apresentação](slides/slide_1A.pdf) / 💻 [Notebook de exercício](notebooks/exercicios/exercises_1A.ipynb) / 💻 [Notebook de suporte](notebooks/exemplos/examples_1A.ipynb)| 
 | 2 | **Categorização de sinais e conversões A/D - D/A** | 📄 [Apresentação] / 💻 [Notebook de exercício] / 💻 [Notebook de suporte]
 | 3 | **Frequências continuas/discretas e introdução a quantização**  | 📄 [Apresentação] / 💻 [Notebook de exercício]  / 💻 [Notebook de suporte]| 
 | 3.1 | **Correlação** | 📄 [Apresentação] / 💻 [Notebook de exercício]  / 💻 [Notebook de suporte]|
