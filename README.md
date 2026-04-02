@@ -61,7 +61,7 @@ Tools, and Techniques to Build Intelligent Systems, 2nd Edition, 2019.
 | 1 | **Sinais: representação, manipulação e análise** | 📄 [Apresentação](slides/slide_1A.pdf) <br>💻 [Notebook de exercício](notebooks/exercicios/exercises_1A.ipynb)   <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_1A.ipynb)| 
 | 2 | **Categorização de sinais e conversões A/D - D/A** | 📄 [Apresentação] <br> 💻 [Notebook de exercício] <br> 💻 [Notebook de suporte]
 | 3 | **Frequências continuas/discretas e introdução a quantização**  | 📄 [Apresentação] <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte]| 
-| 3.1 | **Correlação** | 📄 [Apresentação] <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte]|
+| 4 | **Correlação** | 📄 [Apresentação] <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte]|
 
 ## :pencil2: Exercícios
 
