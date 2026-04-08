@@ -58,8 +58,8 @@ Tools, and Techniques to Build Intelligent Systems, 2nd Edition, 2019.
 | **N** | **Tópico** | **Materiais** |
 |---|---|---|
 | 0 | **Introdução a PDS** | 📄 [Apresentação](slides/introduction.pdf)| 
-| 1A | **Sinais: representação, manipulação e análise** | 📄 [Apresentação](slides/slide_1A.pdf) <br>💻 [Notebook de exercício](notebooks/exercicios/exercises_1A.ipynb)   <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_1A.ipynb)| 
-| 1B | **Categorização de sinais e conversões A/D - D/A** | 📄 [Apresentação] <br> 💻 [Notebook de exercício] <br> 💻 [Notebook de suporte]
+| 1A | **Sinais: representação, manipulação e análise** | 📄 [Apresentação](slides/slides_1A.pdf) <br>💻 [Notebook de exercício](notebooks/exercicios/exercises_1A.ipynb)   <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_1A.ipynb)| 
+| 1B | **Categorização de sinais e conversões A/D - D/A** | 📄 [Apresentação](slides/slides_1B.pdf) <br> 💻 [Notebook de exercício] <br> 💻 [Notebook de suporte]
 | 1C | **Frequências continuas/discretas e introdução a quantização**  | 📄 [Apresentação] <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte]| 
 | 1D | **Correlação** | 📄 [Apresentação] <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte]|
 
@@ -68,6 +68,7 @@ Tools, and Techniques to Build Intelligent Systems, 2nd Edition, 2019.
 |**ID**|**Tópico**|**Questões**|
 |---|---|---|
 |1B|Categorização de sinais e conversões A/D - D/A|1.8, 1.9, 1.11, 1.13, 1.27, 1.28, 1.29, 1.30, 1.32|
+|1C| Frequências continuas/discretas e introdução a quantização|1.5, 1.14, 1.15, 1.16, 1.17, 1.18, 1.24|
 
 Além de resolver as questões, os alunos devem indicar quais estão dispostos a apresentar em sala e, caso sejam chamados, apresentá-las para garantir os pontos. Indicar em:
 [Planilha de confirmação das apresentações dos exercícios](https://docs.google.com/spreadsheets/d/1WtyhVnGCtnoggxQOcvuRKTjZGNCo3ZlETIphH3RvCnk/edit?gid=0#gid=0)
