@@ -59,7 +59,7 @@ Tools, and Techniques to Build Intelligent Systems, 2nd Edition, 2019.
 |---|---|---|
 | 0 | **Introdução a PDS** | 📄 [Apresentação](slides/introduction.pdf)| 
 | 1A | **Sinais: representação, manipulação e análise** | 📄 [Apresentação](slides/slides_1A.pdf) <br>💻 [Notebook de exercício](notebooks/exercicios/exercises_1A.ipynb)   <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_1A.ipynb)| 
-| 1B | **Categorização de sinais e conversões A/D - D/A** | 📄 [Apresentação](slides/slides_1B.pdf) <br> 💻 [Notebook de exercício] <br> 💻 [Notebook de suporte]
+| 1B | **Categorização de sinais e conversões A/D - D/A** | 📄 [Apresentação](slides/slides_1B.pdf) <br> 💻 [Notebook de exercício](notebooks/exercicios/exercises_1B.ipynb) <br> 💻 [Notebook de suporte]
 | 1C | **Frequências continuas/discretas e introdução a quantização**  | 📄 [Apresentação] <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte]| 
 | 1D | **Correlação** | 📄 [Apresentação] <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte]|
 
