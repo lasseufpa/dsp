@@ -20,7 +20,7 @@ Você deve encontrar o equilíbrio ideal entre:
 ## 3. Entregáveis
 Os grupos devem entregar:
 1. **Notebook (.ipynb):** Código documentado com os testes, gráficos e a solução final otimizada.
-2. **Relatório Técnico (Artigo):** Documento de 3 páginas seguindo o formato SBRT (escrita simples e direta).
+2. **Relatório Técnico (Artigo):** Documento de 3 páginas seguindo o formato SBRT (escrita simples e direta), mantendo o padrão de redação científica.
 3. **Apresentação:** Defesa técnica da solução (slides).
 
 ---
