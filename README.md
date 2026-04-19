@@ -69,6 +69,7 @@ Tools, and Techniques to Build Intelligent Systems, 2nd Edition, 2019.
 |---|---|---|
 |1B|Categorização de sinais e conversões A/D - D/A|1.8, 1.9, 1.11, 1.13, 1.27, 1.28, 1.29, 1.30, 1.32|
 |1C| Frequências continuas/discretas e introdução a quantização|1.5, 1.14, 1.15, 1.16, 1.17, 1.18, 1.24|
+|1D| Correlação | 1.19, 1.20, 1.22, 1.31, 1.33, 1.34, 1.37, 1.38, 1.39|
 
 Além de resolver as questões, os alunos devem indicar quais estão dispostos a apresentar em sala e, caso sejam chamados, apresentá-las para garantir os pontos. Indicar em:
 [Planilha de confirmação das apresentações dos exercícios](https://docs.google.com/spreadsheets/d/1WtyhVnGCtnoggxQOcvuRKTjZGNCo3ZlETIphH3RvCnk/edit?gid=0#gid=0)
