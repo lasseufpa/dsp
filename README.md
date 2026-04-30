@@ -61,7 +61,9 @@ Tools, and Techniques to Build Intelligent Systems, 2nd Edition, 2019.
 | 1A | **Sinais: representação, manipulação e análise** | 📄 [Apresentação](slides/slides_1A.pdf) <br>💻 [Notebook de exercício](notebooks/exercicios/exercises_1A.ipynb)   <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_1A.ipynb)| 
 | 1B | **Categorização de sinais e conversões A/D - D/A** | 📄 [Apresentação](slides/slides_1B.pdf) <br> 💻 [Notebook de exercício](notebooks/exercicios/exercises_1B.ipynb) <br> 💻 [Notebook de suporte]
 | 1C | **Frequências continuas/discretas e introdução a quantização**  | 📄 [Apresentação](slides/slides_1C.pdf) <br> 💻 [Notebook de exercício](notebooks/exercicios/exercises_1C.ipynb)  <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_1C.ipynb)| 
-| 1D | **Correlação** | 📄 [Apresentação] <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_1D.ipynb)|
+| 1D | **Correlação** | 📄 [Apresentação](slides/slides_1D.pdf) <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_1D.ipynb)|
+| 2A | **Transformadas Lineares** | 📄 [Apresentação](slides/slides_2A.pdf) <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_2A.ipynb)|
+| 2B | **Transformadas e séries de Fourier** | 📄 [Apresentação](slides/slides_2B.pdf) <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_2B.ipynb)|
 
 ## :pencil2: Exercícios
 
