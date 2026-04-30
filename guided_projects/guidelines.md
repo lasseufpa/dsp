@@ -12,15 +12,14 @@ Você deve encontrar o equilíbrio ideal entre:
 ---
 
 ## 2. Dinâmica de Grupo
-* Esta atividade será realizada em **grupo**. 
-* A quantidade de integrantes por grupo será definida em sala pelo professor e, posteriormente, este documento será atualizado com o número oficial.
+* Esta atividade será realizada em **grupo** de no máximo 4 pessoas. 
 
 ---
 
 ## 3. Entregáveis
 Os grupos devem entregar:
 1. **Notebook (.ipynb):** Código documentado com os testes, gráficos e a solução final otimizada.
-2. **Relatório Técnico (Artigo):** Documento de 3 páginas seguindo o formato SBRT (escrita simples e direta), mantendo o padrão de redação científica.
+2. **Relatório Técnico (Artigo):** Documento de no máximo 3 páginas seguindo o formato SBRT (escrita simples e direta), mantendo o padrão de redação científica.
 3. **Apresentação:** Defesa técnica da solução (slides).
 
 ---
