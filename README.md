@@ -64,6 +64,8 @@ Tools, and Techniques to Build Intelligent Systems, 2nd Edition, 2019.
 | 1D | **Correlação** | 📄 [Apresentação](slides/slides_1D.pdf) <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_1D.ipynb)|
 | 2A | **Transformadas Lineares** | 📄 [Apresentação](slides/slides_2A.pdf) <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_2A.ipynb)|
 | 2B | **Transformadas e séries de Fourier** | 📄 [Apresentação](slides/slides_2B.pdf) <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_2B.ipynb)|
+| 2C | **Transformadas de Laplace e Z** | 📄 [Apresentação](slides/slides_2C.pdf) <br> 💻 [Notebook de exercício]  <br> 💻 [Notebook de suporte](notebooks/exemplos/examples_2C.ipynb)|
+
 
 ## :pencil2: Exercícios
 
