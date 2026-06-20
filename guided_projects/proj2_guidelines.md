@@ -1,7 +1,9 @@
 # Atividade Prática: Projeto de sistema para filtragem digital em ponto-fixo
 
+O projeto é um sistema para filtragem digital utilizando representação de números em ponto fixo.
+
 ## 1. Objetivo da Atividade
-O projeto é um sistema para filtragem digital utilizando representação de números em ponto fixo. O objetivo é atenuar o ruído e a interferência de uma única forma de onda de EEG. O ruído é do tipo AWGN ("ruído aditivo, branco e Gaussiano") e a interferência está em 60 Hz. Assume-se que a banda de frequência de interesse na análise de EEG é de 0 a 40 Hz. O sistema deve ser capaz de processar vários canais de EEG em tempo real.
+O objetivo é maximizar a razão sinal/ruído (SNR) entre o sinal filtrado e o original, através da atenuação do ruído e da interferência de uma única forma de onda de EEG. O ruído é do tipo AWGN ("ruído aditivo, branco e Gaussiano") e a interferência está em 60 Hz. Assume-se que a banda de frequência de interesse na análise de EEG é de 0 a 40 Hz. O sistema deve ser capaz de processar vários canais de EEG em tempo real.
 
 O "hardware" considerado é um processador DSP que utiliza um acumulador (acc) de 16 bits com saturação implementada, e todos os outros números são representados em 8 bits.O projetista tem permissão para trabalhar com os seguintes graus de liberdade:
 
@@ -9,9 +11,20 @@ O "hardware" considerado é um processador DSP que utiliza um acumulador (acc) d
 
 2. Qualquer ordem de filtro pode ser utilizada, bem como qualquer implementação (forma direta, seções SOS, etc.).
 
+3. Caso a equipe investigue estruturas avançadas como "mutiplierless filters" (veja, por exemplo, https://arxiv.org/pdf/1912.04210), "sparse FIR filters" (https://ieeexplore.ieee.org/document/9362902) ou "filters with powers-of-two coefficients" (https://ieeexplore.ieee.org/document/1096001), pode eventualmente modificar o método check_realtime_difference_equation() para que reflita adequadamente o custo computacional da estrutura avançada. O método check_realtime_difference_equation() assume implementações convencionais de H(z) e não dá suporte a várias estruturas avançadas.
+
+3. A equipe pode modificar métodos como apply_fixed_point_filter_int8() para refletir a quantização e estrutura de filtragem adotadas.
+
+4. A principal métrica da qualidade da filtragem é a SNR exemplificada na célula com o título "Final comparison to get SNR". Por exemplo, para o filtro IIR de exemplo, tem-se o resultado SNR = 2.60 dB. O objetivo do projeto é criar um sistema que, obedecendo às restrições, maximize essa SNR entre o resultado final da filtragem e o sinal original, antes de se adicionar ruído e interferência.
+
 Cada equipe deve então projetar e simular o sistema de filtragem digital. Usando o método check_realtime_difference_equation() e sem modificar o valor de ```number_of_channels = 140```, deve-se garantir que o sistema é apto a executar em tempo real.
 
-**Restrição:** O sistema deve ser apto a executar, em tempo real, o número de canais de EEG especificado.
+**Restrição:**
+
+1. O sistema deve maximizar a SNR citada, mas ser apto a executar, em tempo real, o número de canais de EEG especificado.
+
+2. A equipe não pode modificar o sinal de entrada, incluindo ruído e interferência que são adicionados, ou sua quantização.
+
 
 ---
 
