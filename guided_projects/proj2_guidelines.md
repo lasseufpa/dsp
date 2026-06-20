@@ -9,6 +9,8 @@ O "hardware" considerado é um processador DSP que utiliza um acumulador (acc) d
 
 2. Qualquer ordem de filtro pode ser utilizada, bem como qualquer implementação (forma direta, seções SOS, etc.).
 
+Cada equipe deve então projetar e simular o sistema de filtragem digital. Usando o método check_realtime_difference_equation() e sem modificar o valor de ```number_of_channels = 140```, deve-se garantir que o sistema é apto a executar em tempo real.
+
 **Restrição:** O sistema deve ser apto a executar, em tempo real, o número de canais de EEG especificado.
 
 ---
