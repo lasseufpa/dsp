@@ -2,6 +2,8 @@
 
 O projeto é um sistema para filtragem digital utilizando representação de números em ponto fixo.
 
+A equipe tem liberdade para adotar as estruturas clássicas já discutidas em sala de aula, ou aprofundar o assunto em livros-texto como os de Richard G. Lyons ("Understanding Digital Signal Processing") e Oppenheim & Schafer ("Discrete-Time Signal Processing"), e artigos clássicos como os de Mullis & Roberts e Jackson (são artigos antigos e relativamente complexos). De fato, otimizar projeto de FIR e IIR com comprimento de palavra finito é a alocação não uniforme de bits por coeficiente, onde diferentes coeficientes, ou mesmo diferentes seções, recebem diferentes números de bits para minimizar a sensibilidade ou o ruído de arredondamento sob um orçamento fixo de hardware.
+
 ## 1. Objetivo da Atividade
 O objetivo é maximizar a razão sinal/ruído (SNR) entre o sinal filtrado e o original, através da atenuação do ruído e da interferência de uma única forma de onda de EEG. O ruído é do tipo AWGN ("ruído aditivo, branco e Gaussiano") e a interferência está em 60 Hz. Assume-se que a banda de frequência de interesse na análise de EEG é de 0 a 40 Hz. O sistema deve ser capaz de processar vários canais de EEG em tempo real.
 
@@ -17,7 +19,15 @@ O "hardware" considerado é um processador DSP que utiliza um acumulador (acc) d
 
 4. A principal métrica da qualidade da filtragem é a SNR exemplificada na célula com o título "Final comparison to get SNR". Por exemplo, para o filtro IIR de exemplo, tem-se o resultado SNR = 2.60 dB. O objetivo do projeto é criar um sistema que, obedecendo às restrições, maximize essa SNR entre o resultado final da filtragem e o sinal original, antes de se adicionar ruído e interferência.
 
-Cada equipe deve então projetar e simular o sistema de filtragem digital. Usando o método check_realtime_difference_equation() e sem modificar o valor de ```number_of_channels = 140```, deve-se garantir que o sistema é apto a executar em tempo real.
+5. É frequentemente vantajoso usar formatos de ponto fixo diferentes Qm.n para os coeficientes do numerador B(z) e do denominador A(z). Não há nenhuma exigência de que todos os coeficientes compartilhem o mesmo formato Q.
+
+6. Os coeficientes do denominador são muito mais críticos pois uma pequena perturbação em um coeficiente de A(z) desloca os pólos, potencialmente causando instabilidade e grandes distorções na resposta em frequência. Os coeficientes do numerador afetam apenas os zeros, que geralmente são muito menos sensíveis. Por exemplo, em implementações em FPGA é comum usar coeficientes de B(z) usando-se 12 a 16 bits, enquanto os de A(z) usam 18 a 24 bits.
+
+7. Em implementações em cascata de SOS (seções de segunda ordem), cada seção pode ter seu próprio formato de coeficiente Qm.n. Outra técnica usada é fazer o pareamento de pólos e zeros para que cada SOS, além da escolha da ordem das seções.
+
+8. Se a implementação calcula a_k * y[n−k] e b_k * x[n−k] com diferentes comprimentos fracionários, esses produtos devem eventualmente ser alinhados a uma escala comum (uma mesma posição do ponto binário) antes de serem acumulados. Portanto, o formato do acumulador interno deve acomodar ambos os conjuntos de produtos.
+
+Cada equipe deve então projetar e simular o sistema de filtragem digital. Usando o método check_realtime_difference_equation() (ou customização adequada) e sem modificar o valor de ```number_of_channels = 140```, deve-se garantir que o sistema é apto a executar em tempo real.
 
 **Restrição:**
 
